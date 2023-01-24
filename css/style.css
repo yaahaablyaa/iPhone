@@ -1,0 +1,307 @@
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    height: 1200px;
+    font-weight: 600;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.link {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 0 22px;
+    position: relative;
+    z-index: 2;
+    padding-left: max(22px, env(safe-area-inset-left));
+    padding-right: max(22px, env(safe-area-inset-right));
+    display: flex;
+
+}
+
+.link a:hover {
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    top: 10px;
+    left: 20px;
+    background-image: url(../img/image-removebg-preview\ \(7\).png);
+    height: 20px;
+    width: 34px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.search {
+    background-image: url(../img/image-removebg-preview.png);
+    height: 20px;
+    width: 34px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    top: 10px;
+}
+
+.btnsss {
+    background-color: none;
+}
+
+.store {
+    background-image: url(../img/image-removebg-preview\ \(1\).png);
+    height: 20px;
+    width: 34px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    top: 10px;
+}
+
+.link img {
+    width: 70px;
+    height: 30px;
+    padding: 0 8px;
+}
+
+.link a {
+    font-size: 12px;
+    line-height: 3.66667;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #D6D6D6;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 8px;
+    height: 44px;
+    text-decoration: none;
+}
+
+.suggestions {
+    width: 980px;
+    margin-top: 20px;
+}
+
+.suggestions_ {
+    background: #f5f5f7;
+    border-radius: 4px;
+    padding: 14px 0;
+    display: flex;
+}
+
+.text_1 {
+    font-weight: bold;
+    max-width: 180px;
+    margin-left: 40px;
+}
+
+.text_1 button {
+    color: blue;
+    background-color: none;
+    border: 0;
+}
+
+.text_ {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    font-size: 12px;
+    gap: 10px;
+}
+
+.new {
+    color: red;
+    font-size: 20px;
+}
+
+.suggestions img {
+    width: auto;
+    height: 24px;
+}
+
+.color_text {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.name_price_device {
+    margin-top: 50px;
+    margin-left: 110px;
+    font-size: 17px;
+}
+
+.device {
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.price {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.button___ {
+    margin-top: 50px;
+    width: 200px;
+    margin-left: 500px;
+
+}
+
+.btn_ {
+    width: 250px;
+    height: 35px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.btn__ {
+    margin-top: 10px;
+    width: 270px;
+    height: 35px;
+    border-radius: 20px;
+    border: 0;
+
+}
+
+.all {
+    display: flex;
+}
+
+.psge {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 100px auto;
+    gap: 50px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    left: 100px;
+    position: sticky;
+    top: 140px;
+    bottom: 60px;
+    width: 800px;
+    height: 500px;
+    background-image: url(../img/Purple.png);
+    background-size: contain;
+    border-radius: 20px;
+    transition: 0.4s ease;
+}
+
+.right {
+    padding: 40px;
+}
+
+.right h4 {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.button_device___3 {
+    margin-top: 20px;
+    width: 340px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: none;
+    border: 1px solid rgb(255, 220, 220);
+}
+
+.button_device____3 {
+    width: 340px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: none;
+    margin-top: 20px;
+    border: 1px solid rgb(255, 220, 220);
+    align-items: center;
+}
+
+.button_device___3:hover {
+    border: 1px solid #000;
+}
+
+.button_device____3:hover {
+    border: 1px solid #000;
+}
+
+.h4 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 18px
+}
+
+.h5 {
+    margin-top: 5px;
+    margin-left: 20px;
+    color: rgb(110, 110, 110);
+    font-size: 13px;
+}
+
+h5 {
+    color: black;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+
+option {
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.color {
+    margin-left: 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.color button {
+    margin-left: 8px;
+}
+
+.purple {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(105, 1, 105);
+   border: 0px;
+    border-radius: 50%;
+}
+
+.silver {
+    width: 30px;
+    height: 30px;
+    background-color: silver;
+    border: 0;
+    border-radius: 50%;
+}
+
+.black {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border: 0;
+    border-radius: 50%;
+}
+
+.gold {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 235, 124);
+    border-radius: 50%;
+}
